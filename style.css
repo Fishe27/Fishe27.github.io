@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Finger Paint', cursive;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.projects, .art {
+    padding: 20px;
+}
+
+.project {
+    background-color: rgb(70, 70, 70);
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.project h3 {
+    color: rgb(150, 50, 50);
+}
+
+.art-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.art-gallery img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: rgb(40, 40, 40);
+}
